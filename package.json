@@ -5,9 +5,22 @@
   "main": "server",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "iftakhar",
+  "license": "MIT",
+  "engines": {
+    "node": "8.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iftakhar450/chatbot.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ]
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4"
